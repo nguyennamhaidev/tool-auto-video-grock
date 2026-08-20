@@ -1,4 +1,4 @@
-# Video Factory AI
+# Video Factory AI (CHO HAI XIN 1 SAO GITHUB)
 
 ## Cai dat
 
