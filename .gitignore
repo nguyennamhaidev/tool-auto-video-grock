@@ -1,0 +1,65 @@
+# Runtime/browser data
+.browser_data/
+grok_cookies.json
+
+# Generated output and working files
+output/
+temp/
+debug_screenshots/
+app.log
+*.log
+
+# Local user settings / machine-specific state
+app_settings.json
+user_config.py
+.vscode/
+.env
+.env.*
+!.env.example
+
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Large generated media/assets
+*.mp4
+*.webm
+*.mov
+*.avi
+*.mkv
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.flac
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+
+# User-supplied asset folders
+assets/music/*
+assets/characters/*
+!assets/music/.gitkeep
+!assets/characters/.gitkeep
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
